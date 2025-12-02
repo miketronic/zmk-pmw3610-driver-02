@@ -3,7 +3,6 @@ description: |
 
 compatible: "pixart,pmw3610"
 
-include: spi-device.yaml
 
 properties:
   irq-gpios:
