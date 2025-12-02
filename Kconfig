@@ -5,13 +5,13 @@
 # SPDX-License-Identifier: LicenseRef-Nordic-5-Clause
 #
 
-menuconfig PMW3610
-    bool "PMW3610 mouse optical sensor"
-  select SPI
-    help
-      Enable PMW3610 mouse optical sensor.
+# menuconfig PMW3610
+#    bool "PMW3610 mouse optical sensor"
+#  select SPI
+#    help
+#      Enable PMW3610 mouse optical sensor.
 
-if PMW3610
+# if PMW3610
 
 config PMW3610_SMART_ALGORITHM
   bool "Enable an algorithm of PMW3610 to enhance surface coverage"
@@ -177,4 +177,4 @@ module = PMW3610
 module-str = PMW3610
 source "${ZEPHYR_BASE}/subsys/logging/Kconfig.template.log_config"
 
-endif #PMW3610
+# endif #PMW3610
